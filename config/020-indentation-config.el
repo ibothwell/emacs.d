@@ -3,10 +3,11 @@
               whitespace-line-column 80)
   :diminish whitespace-mode)
 
+(add-hook 'before-save-hook 'delete-trailing-whitespace)
+
 (use-package auto-indent-mode :ensure t
-  :init (setq auto-indent-on-save-file t
-              auto-indent-delete-trailing-whitespace-on-save-file t
-              auto-indent-untabify-on-save-file t
-              auto-indent-indent-style 'aggressive)
+  :init (setq auto-indent-indent-style 'aggressive
+              auto-indent-on-save-file t
+              auto-indent-untabify-on-visit-file t)
   :config (auto-indent-global-mode)
   :diminish auto-indent-mode)
