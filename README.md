@@ -1,3 +1,15 @@
+# Installation & Customization
+
+1. download and install Fira Mono Font https://github.com/mozilla/Fira
+1. Using Brew install the_silver_searcher, aspell, readline, rlwrap  (ex. `brew install the_silver_searcher`)
+1. clone this repo
+1. link to .emacs.d (`ln -s emacs.d ~/.emacs.d`)
+1. Rename the `ibothwell` directory to the username associated with the system
+1. In the `emacs-custom.el` update the PATH env / exec-path to include your system user name (find/replace ibothwell)
+
+
+Original Cloned Repo documeantion Below.
+
 # emacs.d
 
 This is an emacs config that started in 1994 and has been
