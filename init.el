@@ -1,7 +1,9 @@
 (setq ns-use-srgb-colorspace nil)
 
 ;; Remove the UI
-(dolist (mode '(menu-bar-mode tool-bar-mode scroll-bar-mode))
+;; (dolist (mode '(menu-bar-mode tool-bar-mode scroll-bar-mode))
+;;   (when (fboundp mode) (funcall mode -1)))
+(dolist (mode '(tool-bar-mode scroll-bar-mode))
   (when (fboundp mode) (funcall mode -1)))
 (setq inhibit-startup-message t)
 (set-fringe-mode '(1 . 1))
