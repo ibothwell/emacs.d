@@ -50,3 +50,37 @@
  ;; If there is more than one, they won't work right.
  '(default ((t (:inherit nil :stipple nil :inverse-video nil :box nil :strike-through nil :overline nil :underline nil :slant normal :weight normal :height 100 :width normal :foundry "apple" :family "Menlo"))))
  '(eval-sexp-fu-flash ((t (:foreground "green4" :weight bold)))))
+
+;;(custom-set-variables
+;; custom-set-variables was added by Custom.
+;; If you edit it by hand, you could mess it up, so be careful.
+;; Your init file should contain only one such instance.
+;; If there is more than one, they won't work right.
+;; '(package-selected-packages
+;;   (quote
+;;    (which-key yaml-mode wgrep-ag web-mode use-package transpose-frame string-utils solarized-theme smex smartscan shell-pop reveal-in-osx-finder rainbow-mode rainbow-delimiters projectile powerline markdown-mode+ magit lua-mode lorem-ipsum js2-mode ido-completing-read+ ibuffer-vc goto-chg git-gutter-fringe flx-ido expand-region es-mode emmet-mode elisp-slime-nav dockerfile-mode docker diminish company-quickhelp company-flx clojure-mode-extra-font-locking cljsbuild-mode clj-refactor cider-eval-sexp-fu buffer-move browse-kill-ring beginend avy ag)))
+;; '(shell-pop-shell-type
+;;   (quote
+;;    ("eshell" "*eshell*"
+;;     (lambda nil
+;;       (eshell shell-pop-term-shell)))))
+;; '(shell-pop-universal-key "M-`")
+;; '(shell-pop-window-position "top")
+;; '(shell-pop-window-size 100))
+(custom-set-variables
+ ;; custom-set-variables was added by Custom.
+ ;; If you edit it by hand, you could mess it up, so be careful.
+ ;; Your init file should contain only one such instance.
+ ;; If there is more than one, they won't work right.
+ '(package-selected-packages
+   (quote
+    (aggressive-indent yaml-mode which-key wgrep-ag web-mode use-package transpose-frame string-utils solarized-theme smex smartscan shell-pop reveal-in-osx-finder rainbow-mode rainbow-delimiters projectile powerline markdown-mode+ magit lua-mode lorem-ipsum js2-mode ido-completing-read+ ibuffer-vc guide-key goto-chg git-gutter-fringe flx-ido expand-region es-mode emmet-mode elisp-slime-nav dockerfile-mode docker diminish company-quickhelp clojure-mode-extra-font-locking cljsbuild-mode clj-refactor cider-eval-sexp-fu buffer-move browse-kill-ring beginend avy ag)))
+ '(safe-local-variable-values (quote ((cider-shadow-cljs-default-options . "app"))))
+ '(shell-pop-shell-type
+   (quote
+    ("eshell" "*eshell*"
+     (lambda nil
+       (eshell shell-pop-term-shell)))))
+ '(shell-pop-universal-key "M-`")
+ '(shell-pop-window-position "top")
+ '(shell-pop-window-size 100))
